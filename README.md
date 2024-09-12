@@ -38,7 +38,7 @@ In the _app.js files, all of the tools are enumerated so an attacker can further
 
 I could not find these enumerated in the JS or brute force them but if an attacker were to be able to reverse engineer them, they would have total access to all corporate administrator features.
 
-Various internal tools are exposed, allowing an attacker to upload files, delete customer suggestions, and access sensitive customer information, such as phone numbers. For instance:
+Various internal tools are exposed with the permisisons I was able to obtain.The would allow an attacker to upload files, delete customer suggestions, and access sensitive customer information, such as phone numbers.
 - The **File Upload** page allows anyone to upload files and returns URLs to these files, making it possible to distribute malicious files through the platform. Additionally, it provides a shortened link in the form \<COMPANY\>.co/1345. Naturally this would make a convincing link to send employees and run malicious JS on their machines.
 - The **Suggestions** page exposes customer phone numbers and allows suggestions to be deleted without authorization.
 - The **Store** page leaks information about all store locations in a query
